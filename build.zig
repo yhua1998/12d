@@ -27,7 +27,7 @@ pub fn build(b: *std.Build) !void {
 
     const app = try mach.CoreApp.init(b, mach_dep.builder, .{
         .name = "aftersun",
-        .src = "src/sunday.zig",
+        .src = "src/12d.zig",
         .target = target,
         .deps = &.{
             .{ .name = "zstbi", .module = zstbi.module("root") },

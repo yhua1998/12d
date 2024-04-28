@@ -5,7 +5,7 @@ const input = @import("input/input.zig");
 
 pub const App = @This();
 
-pub const name = "sunday";
+pub const name = "12d";
 pub var window_size: [2]f32 = undefined;
 pub var framebuffer_size: [2]f32 = undefined;
 pub var content_scale: [2]f32 = undefined;
