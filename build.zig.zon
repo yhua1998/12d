@@ -1,0 +1,30 @@
+.{
+    .name = "sunday",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.12.0",
+
+    .dependencies = .{
+        .mach = .{
+            .url = "https://github.com/hexops/mach/archive/d573a59d6794b234e4087ffaa62e80409a27c37e.tar.gz",
+            .hash = "1220e40b2399ae6d56b3311495554e6e994bed61457b08d0a01fd7c8f1f7fe63bbdd",
+        },
+        .zgui = .{ .path = "libs/zgui" },
+        .zd3d12 = .{ .path = "libs/zd3d12" },
+        .zglfw = .{ .path = "libs/zglfw" },
+        .zstbi = .{ .path = "libs/zstbi" },
+        .zmath = .{ .path = "libs/zmath" },
+        .zflecs = .{ .path = "libs/zflecs" },
+        .zig_imgui = .{
+            .url = "https://github.com/foxnne/zig-imgui/archive/64d9179d275a04051ac9c688470578265f2f6734.tar.gz",
+            .hash = "1220d2e9b74878399872ad1a77b8f20c8dcf3ae07e345e3ef4f8d5a45ce8a23eaba3",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
